@@ -8,9 +8,7 @@ a:link
     padding-right: 5rem;
     background: #1e2339;
     color: #b6d4fe;
-    height: 33px;
-
-
+    height: 34px;
 }
 .fa-linkedin-square{
     display: flex;
@@ -53,8 +51,7 @@ a:link
     padding: .8rem;
     background-color: #ffffff;
     opacity: 0.8;
-    border-radius: 5px;
-
+    border-radius: 1px;
 }
 .date-event{
     display: flex;
@@ -80,30 +77,9 @@ a:link
     text-align: center;
 }
 
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-}
 
-#navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
 
-#navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 .content {
     padding: 16px;
