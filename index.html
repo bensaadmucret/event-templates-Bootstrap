@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <Link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/theme.bundle.css" type="text/css">
     <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+    <script src="assets/js/w3data.js"></script> 
      
     <title>Title</title>
 </head>
@@ -16,34 +18,8 @@
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
     </a>
 </div/>
-
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb breadcrumb-scroll">
-      <li class="breadcrumb-item">
-        <a class="text-gray-700" href="#">
-          Help Center
-        </a>
-      </li>
-      <li class="breadcrumb-item active" aria-current="page">
-        Account
-      </li>
-    </ol>
-  </nav>
-  
-
-<div class="header-container">
-    <div class="logo"></div>
-    <div class="header-image">
-        <div class="header-date">
-            <div class="date-event"><p>28.06.2021</p>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                <p>30.06.20</p></div>
-            <div class="lieu-event"><p>Paris</p></div>
-        </div>
-    </div>
-</div>
-
-
+<div w3-include-html="hero.html"></div> 
+<div w3-include-html="nav.html"></div> 
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
         <!-- Brand -->
@@ -492,17 +468,87 @@
 
   <div class="container"> 
 
-{% block body %}
 
-{% endblock %}
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
+        <svg viewBox="0 0 1313 768" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M442.794 768c163.088 0 305.568-88.227 382.317-219.556l.183.556s.249-.749.762-2.181a440.362 440.362 0 0033.192-71.389C901.996 397.81 989.306 277.09 1144.29 206l-.92-.693C1230.34 171.296 1295.63 94.049 1312.83 0H1.294v295.514c-.663 9.909-1 19.908-1 29.986 0 244.386 198.114 442.5 442.5 442.5z" fill="currentColor"></path></svg>
+      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center text-center text-md-left">
+          <div class="col-12 col-md-6">
+            
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid mw-130 float-right mb-6 mb-md-0" data-aos="fade-right">
+
+          </div>
+          <div class="col-12 col-md-6">
+            
+            <!-- Heading -->
+            <h1 class="display-1 font-weight-bold">
+              <div data-aos="fade-left">Work Smart.</div>
+              <div data-aos="fade-left" data-aos-delay="100">Not Hard.</div>
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
+              Productivity tools can either help you or get in the way. Landkit aims to remove all barriers between you and just getting stuff done. Give us a try and we promise you won't regret it.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    
+
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
+        <svg viewBox="0 0 1313 768" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M442.794 768c163.088 0 305.568-88.227 382.317-219.556l.183.556s.249-.749.762-2.181a440.362 440.362 0 0033.192-71.389C901.996 397.81 989.306 277.09 1144.29 206l-.92-.693C1230.34 171.296 1295.63 94.049 1312.83 0H1.294v295.514c-.663 9.909-1 19.908-1 29.986 0 244.386 198.114 442.5 442.5 442.5z" fill="currentColor"></path></svg>
+      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center text-center text-md-left">
+          <div class="col-12 col-md-6">
+            
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid mw-130 float-right mb-6 mb-md-0" data-aos="fade-right">
+
+          </div>
+          <div class="col-12 col-md-6">
+            
+            <!-- Heading -->
+            <h1 class="display-1 font-weight-bold">
+              <div data-aos="fade-left">Work Smart.</div>
+              <div data-aos="fade-left" data-aos-delay="100">Not Hard.</div>
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
+              Productivity tools can either help you or get in the way. Landkit aims to remove all barriers between you and just getting stuff done. Give us a try and we promise you won't regret it.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div w3-include-html="feature.html"></div> 
+      <div w3-include-html="blog-post.html"></div> 
+      <div w3-include-html="blog-post-autor.html"></div> 
+      <div w3-include-html="card.html"></div> 
+      <div w3-include-html="card-color.html"></div> 
 
   </div>
-  <link rel="import" href="footer.html">
+  <div w3-include-html="footer-dark.html"></div> 
+  <div w3-include-html="footer-white.html"></div> 
+  <div w3-include-html="footer.html"></div> 
+  <script>
+  w3IncludeHTML();
+  </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/nunjucks/3.0.1/nunjucks.min.js" integrity="sha512-IIuR+Zp8wvP0dxNcSsRPoL7SXzP1kGmosDtcU7f6cPObZ9F5Ze/icFSRH/SqigP468jGwDm2XOE0/gSGm/cTBw==" crossorigin="anonymous"></script>
 <script src="assets/js/app.js"></script>
-
-
-
 <script src="assets/js/vendor.bundle.js"></script>
 <script src="assets/js/theme.bundle.js"></script>
 </body>
